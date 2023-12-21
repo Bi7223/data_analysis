@@ -47,10 +47,6 @@ def plot_data(df, projects, categories):
 # App Title and Description
 st.title("Revenue Data Visualization")
 st.write("This app visualizes revenue data based on selected projects and categories. "
-         "Use the sidebar to select the project numbers and categories to display the corresponding data.")
-
-st.title("Revenue Data Visualization")
-st.write("This app visualizes revenue data based on selected projects and categories. "
          "Upload your data file or use the sample data provided.")
 
 # File Uploader
