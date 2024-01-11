@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import plotly.graph_objects as go
+import plotly
 
 def load_data(file_name, project_name):
     project_budget = pd.read_excel(file_name, sheet_name=project_name)
